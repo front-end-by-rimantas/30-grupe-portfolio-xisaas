@@ -27,8 +27,8 @@ Design: https://maantheme.com/xisaas/version-1/index-4.html
 
 ## Authors
 
-Gintarė: [Github](https://github.com/Ambera543)
-Greta: [Github](https://github.com/gretapos)
-Lukas: [Github](https://github.com/lukas2256)
-Božena: [Github](https://github.com/pakalnute)
-Vilija: [Github](https://github.com/Tamulaitiene)
+- Gintarė: [Github](https://github.com/Ambera543)
+- Greta: [Github](https://github.com/gretapos)
+- Lukas: [Github](https://github.com/lukas2256)
+- Božena: [Github](https://github.com/pakalnute)
+- Vilija: [Github](https://github.com/Tamulaitiene)
