@@ -5,23 +5,29 @@
 /* Header Area Start */
 /* Header Area End */
 
-/* Heros.. Area Start */
-/* Heros.. Area end */
+/* Hero.. Area Start */
+/* Hero.. Area End */
 
 /* Icons Area Start */ 
 /* Icons Area End */
 
+/* Cards Area Start */ 
+/* Cards Area End */
+
 /* Video Area Start */
 /* Video Area End */
 
-/* We focus on data ... area start */
-/* We focus on data ... area end */
+/* Why Choose Area Start */
+/* Why Choose Area End */
 
-/* Frequently asked price area start */
-/* Frequently asked price area end */
+/* Pricing Area Start */
+/* Pricing Area End */
 
-/* Need Contact.. area start */
-/* Need Contact..  area end */
+/* Frequently...Area Start */
+/* Frequently...Area End */
 
-/* Be Notified area start */
-/* Be Notified area end */
+/* Need Contact.. Area Start */
+/* Need Contact..  Area End */
+
+/* Be Notified Area Start */
+/* Be Notified Area End */
