@@ -16,18 +16,29 @@
 
 /* CUSTOM PAGE STYLE BELOW THIS COMMENT LINE */
 
-.row {
-    display: flex;
-    flex-wrap: wrap;
-    margin-top: 10%;
-    justify-content: space-between;
+.hero-image {
+    max-width: 100%;
+    max-height: 20vh;
+    box-sizing: border-box;
+    position: fixed;
+    flex-basis: 40%;
+    z-index: -1;
 }
 
-.col-1 {
-    flex-basis: 40%;
-    min-width: 300px;
+.hero-text {
+    margin-top: 170px;
+    margin-left: 10%;
+    position: absolute;
+    color: #141F4E;
+    font-weight: 500;
+    font-size: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+.hero-text1 {
     margin-top: 30px;
-    position: relative;
+    font-size: 20px;
+    color: #8491A3;
 }
 
 .col-2 {
@@ -38,16 +49,16 @@
 
 .col-2 img {
     width: 210%;
-    margin-left: -100%;
-    margin-top: -30%;
+    margin-left: -50%;
+    margin-top: -80%;
 }
 
 .underpicture {
     position: relative;
     float: right;
     width: 40%;
-    margin-right: 20%;
-    margin-top: -65%;
+    margin-right: 10%;
+    margin-top: 10%;
 }
 
 .col-1 h1 {
@@ -63,59 +74,6 @@
     margin: 25px 0 25px;
     margin-left: 25%;
     max-width: 580px;
-}
-
-.btn-x {
-    position: relative;
-    color: white;
-    text-decoration: none;
-    background-color: #7DB1C5;
-    margin-left: 25%;
-    border-radius: 4rem;
-    padding: 16px;
-    padding-left: 40px;
-    padding-right: 40px;
-    -webkit-transform: translateZ(0);
-    transform: translateZ(0);
-    -webkit-backface-visibility: hidden;
-    backface-visibility: hidden;
-    -webkit-transition-duration: 0.3s;
-    transition-duration: 0.3s;
-}
-
-.btn-x:before {
-    content: "";
-    position: absolute;
-    z-index: -1;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    -webkit-transform: scaleX(0);
-    transform: scaleX(0);
-    -webkit-transform-origin: 0 50%;
-    transform-origin: 0 50%;
-    -webkit-transition-property: transform;
-    transition-property: transform;
-    -webkit-transition-duration: 0.3s;
-    transition-duration: 0.3s;
-    -webkit-transition-timing-function: ease-out;
-    transition-timing-function: ease-out;
-}
-
-.btn-x:hover,
-.btn-x:focus,
-.btn-x:active {
-    color: rgb(253, 253, 253);
-    box-shadow: inset 300px 0 0 0 #682DE9;
-    transition: all ease-in-out 800ms;
-}
-
-.btn-x:hover:before,
-.btn-x:focus:before,
-.btn-x:active:before {
-    -webkit-transform: scaleX(1);
-    transform: scaleX(1);
 }
 
 
