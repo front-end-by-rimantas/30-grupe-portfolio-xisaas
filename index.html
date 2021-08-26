@@ -19,7 +19,7 @@
     <a href="#"> Overview </a> 
     <a href="#"> Why choose?</a> 
     <a href="#"> Pricing </a> 
-    <a href="#"> Contact </a> 
+    <a href="#contact"> Contact </a> 
     <button class="button">Download</button>
     </div>
   </header>
@@ -180,27 +180,39 @@
      <!--Frequently..  area end-->
      
      <!--Need Contact.. area start -->
-     <section class="container form">
-        <div class="row">
-            <div class="col-12 center_text">
-                <h2>Need Contact? Fill The Form</h2>
-            </div>
-            <div class="row">
-                <input class="col-6" type="text" placeholder="First Name*">
-                <input class="col-6" type="text" placeholder="Last Name*">
-            </div>
-            <div class="row">
-                <input class="col-6" type="text" placeholder="Your Email*">
-                <input class="col-6" type="text" placeholder="Your Phone*">
-            </div>
-            <div class="row">
-                <textarea class="col-12" placeholder="Your Message*" style="height:200px"></textarea>
-            </div>
-        </div>
-        <div class="col-12">
-            <button class="btn submit" type="submit">Submit Message</button>
-        </div>
-    </section>
+     <section id="contact" class="contact-form-section">
+        <div class="container">
+           <div class="row">
+               <div class="col-12">
+                   <div class="contact-form">
+                       <h2 class="contact-form-title">Need Contact? Fill The Form</h2>
+                       <form>
+                           <div class="row">
+                               <div class="col-6 contact-form-group">
+                                   <input class="input" type="text" placeholder="First Name*" required />
+                               </div>
+                               <div class="col-6 contact-form-group">
+                                   <input class="input" type="text" placeholder="Last Name*" required />
+                               </div>
+                               <div class="col-6 contact-form-group">
+                                   <input class="input" type="email" placeholder="Your Email*" required />
+                               </div>
+                               <div class="col-6 contact-form-group">
+                                   <input class="input" type="text" placeholder="Your Phone*" required />
+                               </div>
+                               <div class="col-12 contact-form-group">
+                                   <textarea class="textarea" placeholder="Your Message*"></textarea>
+                               </div>
+                               <div class="col-12 contact-form-group">
+                                   <button class="btn submit button" type="submit">Submit Message</button>
+                               </div>
+                           </div>
+                       </form>
+                   </div>
+               </div>
+           </div>
+       </div>
+   </section>
      <!--Need Contact..  area end-->
  
      <!--Be Notified area start-->
