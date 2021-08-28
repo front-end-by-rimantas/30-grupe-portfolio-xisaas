@@ -63,6 +63,56 @@
     max-width: 580px;
 }
 
+.price-header{
+    text-align: center;
+    font-size: 48px;
+    line-height: 60px;
+    width: 560px;
+    height: 120px;
+    color: #fff;
+  }
+
+  .tittle-price {
+    font-size: 72px;
+    font-weight: bold;
+    margin-top: 17px;
+    margin-bottom: 25px;
+    text-align: center;
+    color: #6610f2;
+  }
+
+  .price-text{
+    display: grid;
+    padding: auto;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    line-height: 180%;
+    font-size: 20px;
+  }
+
+  .plan-name{
+      color: #141F4E;
+      font-weight: 700;
+      font-size: 24px;
+  }
+  .pricing-item{
+    box-sizing: border-box;
+    width: 300px;
+    height: 500px;
+    text-align: center;
+    padding: 50px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    background: #fff;
+  }
+
+  .span{
+    font-size: 20px;
+    margin-top: 50px;
+  }
+  .container.price-background {
+    background: url('../img/price-bg-fore.png') no-repeat top center / cover;
+  }
 
 /* Header Area Start /*
 /* Header Area End /*
