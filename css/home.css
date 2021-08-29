@@ -79,8 +79,46 @@
 /* Video Area Start /*
 /* Video Area End /*
 
-/* Why Choose area start /*
-/* Why Choose... area end /*
+/* Why Choose area start */
+.why-choose-container {
+    width: 100%;
+    text-align: left;
+}
+
+.why-choose-container .container {
+    padding-top: 0;
+}
+
+.why-choose-container .why-choose-right-side {
+    padding-left: 80px;
+}
+
+.why-choose-container .why-choose-left-side {
+    padding-right: 80px;
+}
+
+.why-choose-container .why-choose-title { 
+    color: #141F4E;
+    font-size: 34px;
+    margin-bottom: 20px;
+}
+
+.why-choose-container .why-choose-title h2 {
+    line-height: 60px;
+}
+
+.why-choose-container .why-choose-description {
+    color: #666d77;
+    font-size: 20px;
+    line-height: 26px;
+    margin-bottom: 20px;
+}
+
+.why-choose-container .why-choose-button .button {
+    margin-left: 0;
+}
+
+/* Why Choose... area end */
 
 /* Pricing area start /*
 /* Pricing area end /*
