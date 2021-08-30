@@ -1,0 +1,9 @@
+
+.header-area.scroll-header.scroll-header-2 {
+    background-color: #f2f6f9;
+}
+
+.header-area.scroll-header {
+    display: none;
+    position: fixed;
+}
