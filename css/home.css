@@ -63,56 +63,7 @@
     max-width: 580px;
 }
 
-.price-header{
-    text-align: center;
-    font-size: 48px;
-    line-height: 60px;
-    width: 560px;
-    height: 120px;
-    color: #fff;
-  }
 
-  .tittle-price {
-    font-size: 72px;
-    font-weight: bold;
-    margin-top: 17px;
-    margin-bottom: 25px;
-    text-align: center;
-    color: #6610f2;
-  }
-
-  .price-text{
-    display: grid;
-    padding: auto;
-    margin-bottom: 30px;
-    border-radius: 5px;
-    line-height: 180%;
-    font-size: 20px;
-  }
-
-  .plan-name{
-      color: #141F4E;
-      font-weight: 700;
-      font-size: 24px;
-  }
-  .pricing-item{
-    box-sizing: border-box;
-    width: 300px;
-    height: 500px;
-    text-align: center;
-    padding: 50px;
-    margin-bottom: 30px;
-    border-radius: 5px;
-    background: #fff;
-  }
-
-  .span{
-    font-size: 20px;
-    margin-top: 50px;
-  }
-  .container.price-background {
-    background: url('../img/price-bg-fore.png') no-repeat top center / cover;
-  }
 
 /* Header Area Start /*
 /* Header Area End /*
@@ -170,10 +121,85 @@
 
 /* Why Choose... area end */
 
-/* Pricing area start /*
+/* Pricing area start */
+
+.price-header{
+    text-align: center;
+    font-size: 48px;
+    line-height: 60px;
+    width: 560px;
+    height: 120px;
+    color: #fff;
+  }
+
+  .tittle-price {
+    font-size: 72px;
+    font-weight: bold;
+    margin-top: 17px;
+    margin-bottom: 25px;
+    text-align: center;
+    color: #6610f2;
+  }
+
+  .price-text{
+    display: grid;
+    padding: auto;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    line-height: 180%;
+    font-size: 20px;
+  }
+
+  .plan-name{
+      color: #141F4E;
+      font-weight: 700;
+      font-size: 24px;
+  }
+  .pricing-item{
+    box-sizing: border-box;
+    width: 300px;
+    height: 500px;
+    text-align: center;
+    padding: 50px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    background: #fff;
+  }
+
+  .span{
+    font-size: 20px;
+    margin-top: 50px;
+  }
+  .container.price-background {
+    background: url('../img/price-bg-fore.png') no-repeat top center / cover;
+  }
+
 /* Pricing area end /*
 
-/* Frequently area start /*
+/* Frequently area start */
+.ask {
+    background-color: #fff;
+    color:#141F4E;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border-bottom: 2px silver;
+    text-align: left;
+    outline: none;
+    font-size: 20px;
+  }
+  
+  .active, .ask:hover {
+    background-color: #fff;
+  }
+  
+  .content {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: #f1f1f1;
+  }
+
 /* Frequently area end /*
     
 /* Need Contact.. area start */
