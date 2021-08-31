@@ -177,13 +177,17 @@
 /* Pricing area end /*
 
 /* Frequently area start */
+
+.row.text-center{
+    text-align: center;
+}
 .ask {
     background-color: #fff;
     color:#141F4E;
     cursor: pointer;
+    margin-left: 50px;
     padding: 18px;
-    width: 100%;
-    border-bottom: 2px silver;
+    width: 80%;
     text-align: left;
     outline: none;
     font-size: 20px;
@@ -195,10 +199,13 @@
   
   .content {
     padding: 0 18px;
-    display: none;
+    margin-left: 50px;
+    display: block;
     overflow: hidden;
-    background-color: #f1f1f1;
+    background-color: #fff;
   }
+
+
 
 /* Frequently area end /*
     
