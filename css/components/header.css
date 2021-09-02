@@ -1,8 +1,9 @@
 .navbar {
     overflow: hidden;
-    /* background-color: rgb(235, 229, 229); */
-    position: fixed;
+    /*background-color: #F2F6F9;*/ 
+    position: fixed; /*sticky*/
     top: 0;
+    z-index: 1;
     padding-top: 10px;
     padding-left: 150px;
     width: 100%;
@@ -13,6 +14,14 @@
     line-height: 26px;
     letter-spacing: 1px;
     font-weight: bold;
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-color: #F2F6F9;
+    background-image: none;
+    background-origin: padding-box;
+    background-position-x: 0%;
+    background-position-y: 0%;
+
 }
 
 .navbar a {
@@ -28,3 +37,9 @@
 .navbar a:hover {
     color: rgb(243, 2, 171);
 }
+
+
+
+
+
+

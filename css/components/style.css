@@ -1,0 +1,58 @@
+
+.navbar {
+    background-color: #f2f6f9;
+}
+
+.navbar-scroll {
+    display: none;
+    position: fixed;
+}
+
+header .header-area {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 20px;
+    z-index: 9999;
+  }
+  
+  header .logo-area {
+    padding-top: 10px;
+  }
+  
+  .header-area.scroll-header {
+    position: fixed;
+    background: #1D1F21;
+    top: 0;
+    padding: 20px 0;
+  }
+  
+  .header-area.scroll-header.scroll-header-2 {
+    background: #f2f6f9;
+  }
+  
+  .header-area.scroll-header.scroll-header-2 .btn-border {
+    color: #141F4E;
+    border: 1px solid #EE008A;
+  }
+  
+  .menu {
+    margin-top: 13px;
+  }
+  
+  .header-right .btn-border {
+    padding: 10px 40px;
+  }
+  
+  .header-3 .mean-container a.meanmenu-reveal {
+    border: 1px solid #fff;
+    color: #fff;
+  }
+  
+  .header-3 .mean-container a.meanmenu-reveal span {
+    background-color: #fff;
+  }
+  
+  .header-4 nav li {
+    color: #4f4f4f;
+  }

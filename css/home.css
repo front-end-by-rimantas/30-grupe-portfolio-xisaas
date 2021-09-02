@@ -64,6 +64,7 @@
 }
 
 
+
 /* Header Area Start /*
 /* Header Area End /*
 
@@ -79,17 +80,188 @@
 /* Video Area Start /*
 /* Video Area End /*
 
-/* Why Choose area start /*
-/* Why Choose... area end /*
+/* Why Choose area start */
+.why-choose-container {
+    width: 100%;
+    text-align: left;
+}
 
-/* Pricing area start /*
+.why-choose-container .container {
+    padding-top: 0;
+}
+
+.why-choose-container .why-choose-right-side {
+    padding-left: 80px;
+}
+
+.why-choose-container .why-choose-left-side {
+    padding-right: 80px;
+}
+
+.why-choose-container .why-choose-title { 
+    color: #141F4E;
+    font-size: 34px;
+    margin-bottom: 20px;
+}
+
+.why-choose-container .why-choose-title h2 {
+    line-height: 60px;
+}
+
+.why-choose-container .why-choose-description {
+    color: #666d77;
+    font-size: 20px;
+    line-height: 26px;
+    margin-bottom: 20px;
+}
+
+.why-choose-container .why-choose-button .button {
+    margin-left: 0;
+}
+
+/* Why Choose... area end */
+
+/* Pricing area start */
+
+.price-header{
+    text-align: center;
+    font-size: 48px;
+    line-height: 60px;
+    width: 560px;
+    height: 120px;
+    color: #fff;
+  }
+
+  .tittle-price {
+    font-size: 72px;
+    font-weight: bold;
+    margin-top: 17px;
+    margin-bottom: 25px;
+    text-align: center;
+    color: #6610f2;
+  }
+
+  .price-text{
+    display: grid;
+    padding: auto;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    line-height: 180%;
+    font-size: 20px;
+  }
+
+  .plan-name{
+      color: #141F4E;
+      font-weight: 700;
+      font-size: 24px;
+  }
+  .pricing-item{
+    box-sizing: border-box;
+    width: 300px;
+    height: 500px;
+    text-align: center;
+    padding: 50px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    background: #fff;
+  }
+
+  .span{
+    font-size: 20px;
+    margin-top: 50px;
+  }
+  .container.price-background {
+    background: url('../img/price-bg-fore.png') no-repeat top center / cover;
+  }
+
 /* Pricing area end /*
 
-/* Frequently area start /*
+/* Frequently area start */
+
+.row.text-center{
+    text-align: center;
+}
+.ask {
+    background-color: #fff;
+    color:#141F4E;
+    cursor: pointer;
+    margin-left: 50px;
+    padding: 18px;
+    width: 80%;
+    text-align: left;
+    outline: none;
+    font-size: 20px;
+  }
+  
+  .active, .ask:hover {
+    background-color: #fff;
+  }
+  
+  .content {
+    padding: 0 18px;
+    margin-left: 50px;
+    display: block;
+    overflow: hidden;
+    background-color: #fff;
+  }
+
+
+
 /* Frequently area end /*
     
-/* Need Contact.. area start /*
-/* Need Contact..  area end /*
+/* Need Contact.. area start */
+
+.contact-form-section .contact-form {
+    background-color: #f2f6f9;
+    padding: 80px;
+    text-align: center;
+}
+
+.contact-form-section .contact-form .contact-form-title {
+    font-size: 30px;
+    color: #141F4E;
+}
+
+.contact-form-section .contact-form .contact-form-group {
+    margin-bottom: 30px;
+}
+
+.contact-form-section .contact-form .contact-form-group .input, 
+.contact-form-section .contact-form .contact-form-group .textarea
+ {
+    width: 100%;
+    padding: 20px 30px;
+    border: none;
+}
+
+.contact-form-section .contact-form .contact-form-group .input {
+    border-radius: 50px;
+}
+
+.contact-form-section .contact-form .contact-form-group .input::placeholder {
+    color: #666d77;
+    font-size: 15px;
+}
+
+.contact-form-section .contact-form .contact-form-group .input:focus,
+.contact-form-section .contact-form .contact-form-group .textarea:focus
+ {
+    outline: none;
+}
+
+.contact-form-section .contact-form .contact-form-group .textarea {
+    border-radius: 5px;
+    height: 250px;
+}
+
+.contact-form-section .contact-form .contact-form-group .button {
+    margin: 0;
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+/* Need Contact..  area end */
  
 /* Be Notified area start /*
 /* Be Notified area end/*

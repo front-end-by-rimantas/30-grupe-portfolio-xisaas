@@ -7,6 +7,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Xissas portfolio</title>
     <link rel="stylesheet" href="./css/home.css">
+    <link rel="stylesheet" href="./css/components/button.css">
+    <link rel="stylesheet" href="./css/components/header.css">
+    <link rel="stylesheet" href="./css/components/footer.css">
+    <link rel="stylesheet" href="./css/base/layout.css">
+    <link rel="stylesheet" href="./css/base/reset.css">
+    <link rel="stylesheet" href="./css/base/base.css">
+
+
+
 </head>
 
 <body>
@@ -14,20 +23,25 @@
     <!--Header Area Start -->
     <header>
         <div class="navbar">
-            <a href="#"> <img src="#" alt="header-logo"> </a>
+            <a href="https://maantheme.com/xisaas/version-1/index.html"> <img src="./img/logo-3.png" alt="header-logo"> </a>
+          <nav class="hidden visible-flex-lg">
             <a href="#"> Home </a>
-            <a href="#">Features </a>
-            <a href="#"> Overview </a>
-            <a href="#"> Why choose?</a>
-            <a href="#"> Pricing </a>
-            <a href="#"> Contact </a>
+            <a href="#features">Features </a>
+            <a href="#icons"> Overview </a>
+            <a href="#why-choose"> Why choose?</a>
+            <a href="#price"> Pricing </a>
+            <a href="#contact"> Contact </a>
             <button class="button">Download</button>
+            <i class="hamburger fa fa-bars hidden-lg"></i>
+        </nav>
+        </div>
+        <div class="navbar-holder hide">
+            <div id = "navigation" class = "navbar hide" href="#"></div>
         </div>
     </header>
     <!--Header Area End -->
 
     <!--Hero.. Area Start -->
-
     <div class="hero-image">
         <img src="/img/banner_home4.png" alt="hero-image">
     </div>
@@ -44,21 +58,12 @@
     <div class="underpicture">
         <img src="/img/client-serice1.png" alt="underpicture">
     </div>
-
-
-
-
-
-
-
+  
     <script src="./js/home.js " type="module " defer></script>
-
-
-
     <!--Hero.. Area end-->
 
     <!--Icons Area Start-->
-    <section class="container">
+    <section id="icons" class="container">
         <div class="row">
             <h2 class="col-12 col center_text">We are featured in</h2>
         </div>
@@ -106,38 +111,61 @@
     <!--Video Area End-->
 
     <!--Why Choose area start-->
-    <section class="container">
-        <div class="row">
-            <img class="col-6" src="./img/client-serice.png" alt="client-serice">
-            <div class="col-6">
-                <h2>We focus on data that grow your business</h2>
-                <p>Inspiration comes in many ways and you like to save everything from. Our web app is working on all differents devices, you will have access whenever you want to your inspiration.</p>
-                <button class="btn getStarted">Get started</button>
+    <section id="why-choose" class="why-choose-container">
+        <div class="container">
+            <div class="row">
+                <div class="col-6">
+                    <img src="./img/client-serice.png" alt="client-serice">
+                </div>
+                <div class="col-6 why-choose-right-side">
+                    <div class="why-choose-title">
+                        <h2>We focus on data that grow your business</h2>
+                    </div>
+                    <div class="why-choose-description">
+                        <p>Inspiration comes in many ways and you like to save everything from. Our web app is working
+                            on all
+                            differents devices, you will have access whenever you want to your inspiration.</p>
+                    </div>
+                    <div class="why-choose-button">
+                        <button class="btn getStarted button">Get started</button>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
-    <section class="container">
-        <div class="row">
-            <div class="col-6">
-                <h2>Create board for hangout with multiple clients</h2>
-                <p>Inspiration comes in many ways and you like to save everything from. Our web app is working on all differents devices, you will have access whenever you want to your inspiration.</p>
-                <button class="btn getStarted">Get started</button>
-            </div>
-            <img class="col-6" src="./img/client-serice1.png" alt="client-serice1">
-        </div>
+    <section class="why-choose-container">
+        <div class="container">
+            <div class="row">
+                <div class="col-6 why-choose-left-side">
+                    <div class="why-choose-title">
+                        <h2>Create board for hangout with multiple clients</h2>
+                    </div>
+                    <div class="why-choose-description">
+                        <p>Inspiration comes in many ways and you like to save everything from. Our web app is working
+                            on
+                            all
+                            differents devices, you will have access whenever you want to your inspiration.</p>
+                    </div>
+                    <div class="why-choose-button">
+                        <button class="btn getStarted button">Get started</button>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <img src="./img/client-serice1.png" alt="client-serice1">
+                </div>
     </section>
-    <!--Why Choose... area end-->
+     <!--Why Choose... area end-->
 
     <!--Princing.. area start-->
-    <section class="container">
+    <section id="price" class="container price-background">
         <div class="row price">
-            <div class="col-12 center_text white_text">
+            <div class="col-12 price-header">
                 <h2>Pricing plans for your best work</h2>
             </div>
             <div class="row center_text">
-                <div class="col-4 free">
+                <div class="col-4 pricing-item">
                     <h3>Free</h3>
-                    <h2 class="tittle-price">$0<span>/mo</span></h2>
+                    <h2 class="tittle-price">$0<span class="span">/mo</span></h2>
                     <ul class="price-text">
                         <li>Unlimited pages</li>
                         <li>All Team members</li>
@@ -145,11 +173,11 @@
                         <li>Unlimited page views</li>
                         <li>Export in html/css</li>
                     </ul>
-                    <button class="btn getStarted-2">Get Started</button>
+                    <button class="button">Get Started</button>
                 </div>
-                <div class="col-4 free">
+                <div class="col-4 pricing-item">
                     <h3>Popular</h3>
-                    <h2 class="tittle-price">$10<span>/mo</span></h2>
+                    <h2 class="tittle-price">$10<span class="span">/mo</span></h2>
                     <ul class="price-text">
                         <li>Unlimited pages</li>
                         <li>All Team members</li>
@@ -157,11 +185,11 @@
                         <li>Unlimited page views</li>
                         <li>Export in html/css</li>
                     </ul>
-                    <button class="btn getStarted">Get Started</button>
+                    <button class="button">Get Started</button>
                 </div>
-                <div class="col-4 free">
+                <div class="col-4 pricing-item">
                     <h3>Professional</h3>
-                    <h2 class="tittle-price">$30<span>/mo</span></h2>
+                    <h2 class="tittle-price">$30<span class="span">/mo</span></h2>
                     <ul class="price-text">
                         <li>Unlimited pages</li>
                         <li>All Team members</li>
@@ -169,7 +197,7 @@
                         <li>Unlimited page views</li>
                         <li>Export in html/css</li>
                     </ul>
-                    <button class="btn getStarted-2">Get Started</button>
+                    <button class="button">Get Started</button>
                 </div>
             </div>
             <div class="row">
@@ -178,7 +206,8 @@
                 </div>
                 <div class="col-6">
                     <img src="" alt="">
-                    <p class="p_white">Helps you keep your inspiration in the same place from pictures to links, texts and colors. Inspiration comes in many ways and you like to save</p>
+                    <p class="p_white">Helps you keep your inspiration in the same place from pictures to links, texts
+                        and colors. Inspiration comes in many ways and you like to save</p>
                     <p>icons</p>
                     <p>Andrew Hellon</p>
                 </div>
@@ -186,41 +215,69 @@
         </div>
     </section>
     <!--Princing..e area end-->
-
-    <!--Frequently.. area start -->
-    <section class="container">
-        <div class="row">
+ 
+     <!--Frequently area start-->
+     <section class="container">
+        <div class="row text-center">
             <span class="col-12">FAQs</span>
         </div>
-        <div class="col-12 center_text">
+        <div class="col-12">
             <h2>Frequently asked questions</h2>
+        </div>
+        <button type="button" class="ask">What Is Xisaas?</button>
+        <div class="content">
+        <p>Inspiration comes in many ways and you like to save everything from. Our web app is working on all different devices, you will have access whenever you want to your inspiration.</p>
+        </div>
+        <button type="button" class="ask">How to purchase?</button>
+        <div class="content">
+        <p>Inspiration comes in many ways and you like to save everything from. Our web app is working on all different devices, you will have access whenever you want to your inspiration.</p>
+        </div>
+        <button type="button" class="ask">Can I use for free?</button>
+        <div class="content">
+        <p>Inspiration comes in many ways and you like to save everything from. Our web app is working on all different devices, you will have access whenever you want to your inspiration.</p>
+         </div>
+         <button type="button" class="ask">How to get refund?</button>
+        <div class="content">
+        <p>Inspiration comes in many ways and you like to save everything from. Our web app is working on all different devices, you will have access whenever you want to your inspiration.</p>
         </div>
     </section>
     <!--Frequently..  area end-->
 
-    <!--Need Contact.. area start -->
-    <section class="container form">
-        <div class="row">
-            <div class="col-12 center_text">
-                <h2>Need Contact? Fill The Form</h2>
-            </div>
-            <div class="row">
-                <input class="col-6" type="text" placeholder="First Name*">
-                <input class="col-6" type="text" placeholder="Last Name*">
-            </div>
-            <div class="row">
-                <input class="col-6" type="text" placeholder="Your Email*">
-                <input class="col-6" type="text" placeholder="Your Phone*">
-            </div>
-            <div class="row">
-                <textarea class="col-12" placeholder="Your Message*" style="height:200px"></textarea>
-            </div>
-        </div>
-        <div class="col-12">
-            <button class="btn submit" type="submit">Submit Message</button>
-        </div>
-    </section>
-    <!--Need Contact..  area end-->
+   <!--Need Contact.. area start -->
+     <section id="contact" class="contact-form-section">
+        <div class="container">
+           <div class="row">
+               <div class="col-12">
+                   <div class="contact-form">
+                       <h2 class="contact-form-title">Need Contact? Fill The Form</h2>
+                       <form>
+                           <div class="row">
+                               <div class="col-6 contact-form-group">
+                                   <input class="input" type="text" placeholder="First Name*" required />
+                               </div>
+                               <div class="col-6 contact-form-group">
+                                   <input class="input" type="text" placeholder="Last Name*" required />
+                               </div>
+                               <div class="col-6 contact-form-group">
+                                   <input class="input" type="email" placeholder="Your Email*" required />
+                               </div>
+                               <div class="col-6 contact-form-group">
+                                   <input class="input" type="text" placeholder="Your Phone*" required />
+                               </div>
+                               <div class="col-12 contact-form-group">
+                                   <textarea class="textarea" placeholder="Your Message*"></textarea>
+                               </div>
+                               <div class="col-12 contact-form-group">
+                                   <button class="btn submit button" type="submit">Submit Message</button>
+                               </div>
+                           </div>
+                       </form>
+                   </div>
+               </div>
+           </div>
+       </div>
+   </section>
+     <!--Need Contact..  area end-->
 
     <!--Be Notified area start-->
     <footer>
